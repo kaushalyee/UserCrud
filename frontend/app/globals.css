@@ -1,0 +1,8 @@
+@tailwind utilities;
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: system-ui, sans-serif;
+}
