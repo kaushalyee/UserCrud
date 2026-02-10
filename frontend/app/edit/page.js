@@ -50,8 +50,8 @@ const validate = () => {
   if (!formData.phone.trim()) {
     newErrors.phone = "Phone is required";
   } else {
-    // Stronger phone validation: optional +, digits, 10-15 numbers
-    const phoneDigits = formData.phone.replace(/\D/g, ""); // remove non-digits
+   
+    const phoneDigits = formData.phone.replace(/\D/g, ""); 
     if (!/^\+?[\d\s-()]+$/.test(formData.phone) || phoneDigits.length < 10 || phoneDigits.length > 15) {
       newErrors.phone = "Invalid phone number (10-15 digits required)";
     }

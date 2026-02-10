@@ -47,9 +47,9 @@ export default function UserList() {
           >
             {/* User Info */}
             <div className="flex-1 mb-3 md:mb-0">
-              <h2 className="text-lg font-semibold text-gray-800">{user.name}</h2>
-              <p className="text-gray-700">{user.email}</p>
-              <p className="text-gray-700">{user.phone}</p>
+              <h2 className="text-lg font-semibold text-gray-800">Name: {user.name}</h2>
+              <p className="text-gray-700">Email: {user.email}</p>
+              <p className="text-gray-700">Phone: {user.phone}</p>
             </div>
 
             {/* Actions */}
