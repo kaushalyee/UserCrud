@@ -91,8 +91,24 @@ Both applications are kept in a single repository for simplified setup and evalu
 # Backend Setup (Spring Boot)
 
 ## 1. Navigate to backend
+```bash
+cd backend
+```
+Step 1 — Check Java Version
+Make sure Java is installed:
+```bash
+java -version
+```
+Step 2 — Build the Project
+```bash
+mvn clean install
+```
+Step 3 — Run the Backend Server
+```bash
 
+mvn spring-boot:run
 
+```
 
 # Frontend Setup — User CRUD App (Next.js)
 
@@ -138,5 +154,10 @@ Step 4 — Start the frontend server
 ```bash
 
 npm run dev
+```
+Step 5 — Run frontend tests 
+```bash
+
+npm test
 
 
