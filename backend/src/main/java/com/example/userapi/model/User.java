@@ -25,7 +25,7 @@ public class User{
     @Email(message = "Email should be valid")
     @NotBlank(message = "Email is required")
     private String email;
-    @Pattern(regexp = "\\d{10}", message = "Phone must be 10 digits")
+
     @NotBlank(message = "Phone Number is Required")
     private String phone;
 
