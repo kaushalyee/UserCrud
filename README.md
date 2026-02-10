@@ -117,24 +117,3 @@ Check versions:
 ```bash
 node -v
 npm -v
-
-
-Step 1 — Go to frontend folder
-
-From the project root:
-
-cd frontend
-
-Step 2 — Install dependencies
-npm install
-
-Step 3 — Configure Backend API URL
-
-Create a file named:
-
-.env.local
-
-
-Add this line:
-
-NEXT_PUBLIC_API_BASE_URL=http://localhost:3001/api
