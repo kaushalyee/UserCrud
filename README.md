@@ -1,4 +1,4 @@
-# User CRUD Management System — Full Stack (Spring Boot + Next.js)
+# User CRUD  — Full Stack (Spring Boot + Next.js)
 
 ## Overview
 
