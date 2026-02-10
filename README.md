@@ -92,11 +92,6 @@ Both applications are kept in a single repository for simplified setup and evalu
 
 ## 1. Navigate to backend
 
-```bash
-cd backend
-backend/src/main/resources/application.properties
-mvnw.cmd spring-boot:run
-
 
 
 # Frontend Setup — User CRUD App (Next.js)
