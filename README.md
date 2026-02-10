@@ -84,7 +84,7 @@ Both applications are kept in a single repository for simplified setup and evalu
 - Java 17+
 - Node.js 18+
 - npm
-- Maven (optional — wrapper included)
+- Maven 
 
 ---
 
@@ -94,4 +94,47 @@ Both applications are kept in a single repository for simplified setup and evalu
 
 ```bash
 cd backend
+backend/src/main/resources/application.properties
+mvnw.cmd spring-boot:run
 
+
+
+# Frontend Setup — User CRUD App (Next.js)
+
+This is the Next.js + Redux Toolkit frontend for the User CRUD system.  
+Follow these steps to install and run it locally.
+
+---
+
+## Requirements
+
+- Node.js 18 or higher
+- npm
+- Backend API running (Spring Boot service)
+
+Check versions:
+
+```bash
+node -v
+npm -v
+
+
+Step 1 — Go to frontend folder
+
+From the project root:
+
+cd frontend
+
+Step 2 — Install dependencies
+npm install
+
+Step 3 — Configure Backend API URL
+
+Create a file named:
+
+.env.local
+
+
+Add this line:
+
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3001/api
